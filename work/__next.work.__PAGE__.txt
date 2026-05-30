@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[273323,["/portfolio/_next/static/chunks/d96012bcfc98706a.js","/portfolio/_next/static/chunks/8a07e6fd7e614a7b.js","/portfolio/_next/static/chunks/2079049d5abbbd3d.js","/portfolio/_next/static/chunks/5431a8f524f1262a.js","/portfolio/_next/static/chunks/1f0c84d2cb543eb4.js"],"Column"]
+3:I[479520,["/portfolio/_next/static/chunks/d96012bcfc98706a.js","/portfolio/_next/static/chunks/8a07e6fd7e614a7b.js","/portfolio/_next/static/chunks/2079049d5abbbd3d.js","/portfolio/_next/static/chunks/5431a8f524f1262a.js","/portfolio/_next/static/chunks/1f0c84d2cb543eb4.js"],""]
+4:I[474855,["/portfolio/_next/static/chunks/d96012bcfc98706a.js","/portfolio/_next/static/chunks/8a07e6fd7e614a7b.js","/portfolio/_next/static/chunks/2079049d5abbbd3d.js","/portfolio/_next/static/chunks/5431a8f524f1262a.js","/portfolio/_next/static/chunks/1f0c84d2cb543eb4.js"],"ProjectCard"]
+a:I[897367,["/portfolio/_next/static/chunks/d96012bcfc98706a.js","/portfolio/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+5:T50e,
+## Overview
+
+Not all metrics matter. This dashboard was built to cut through the noise — tracking only the KPIs that actually correlate with business outcomes: engagement rate by platform, audience demographic shifts, content type performance, and posting time optimization.
+
+## What it does
+
+- **Engagement tracking** — cross-platform comparison of likes, shares, comments, and saves, normalized per 1000 impressions
+- **Audience analysis** — demographic breakdowns that update as follower bases shift; catches micro-trends before they become macro problems
+- **Content performance** — categorizes posts by format (image, video, carousel, text) and measures which formats drive the most meaningful engagement
+- **Time-of-day optimization** — heatmaps showing when each audience segment is most active
+
+## Tech
+
+- **Tableau** — interactive dashboards with parameter-driven filtering
+- **Excel** — data cleaning and preprocessing before ingestion
+- **SQL** — querying platform APIs and internal databases for raw data
+
+## What I learned
+
+The insight that surprised me most: our highest-engagement content type (short-form video) was not our highest-converting content type (long-form educational carousels). The dashboard made this visible, and it changed our content calendar.
+6:T58c,
+## Overview
+
+A client was spending 70% of their digital ad budget on one platform because "that's where the audience is." The data said otherwise. I pulled campaign-level performance data across five platforms, calculated ROAS at the channel, campaign, and creative level, and surfaced reallocation opportunities worth 40% more return.
+
+## What I did
+
+- **Data extraction** — pulled spend, impression, click, and conversion data from Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads, and programmatic
+- **ROAS modeling** — calculated return on ad spend at three levels: platform, campaign, and individual creative
+- **Attribution analysis** — mapped conversion paths to understand how channels influenced each other
+- **Budget recommendation** — built a reallocation model that maintained total spend while shifting budget to higher-ROAS channels
+
+## Key findings
+
+- One underfunded channel had 3.2x the ROAS of the top-budget channel
+- Video creatives under 15 seconds consistently outperformed longer formats
+- Weekend campaigns had 22% lower CPA than weekday campaigns across all platforms
+
+## Tech
+
+- **Excel** — Pivot Tables, Power Query, data modeling
+- **Google Analytics** — conversion tracking and attribution
+- **Looker Studio** — client-facing dashboard
+
+## Result
+
+Recommended budget shift increased projected ROAS by 40% without increasing total spend. Client adopted the recommendation in Q2.
+0:{"buildId":"1lS7dUuMZaqKgg2SIkIZT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://playingwithdata-and.github.io/portfolio/work\",\"sameAs\":[],\"headline\":\"Projects – Andre Afrillian\",\"description\":\"Data analysis projects by Andre Afrillian\",\"image\":\"https://playingwithdata-and.github.io/portfolio/images/og/home.jpg\",\"author\":{\"@type\":\"Person\",\"name\":\"Andre Afrillian\",\"url\":\"https://playingwithdata-and.github.io/portfolio/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://playingwithdata-and.github.io/portfolio/images/avatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Andre Afrillian"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","social-media-performance-dashboard",{"priority":true,"href":"/work/social-media-performance-dashboard","images":["/images/projects/project-01/cover-01.jpg"],"title":"Social Media Performance Dashboard","description":"Interactive Tableau dashboard tracking engagement rates, audience demographics, and content performance across platforms — built with real, anonymized social media data.","content":"$5","avatars":[{"src":"/images/avatar.jpg"}],"link":""}],["$","$L4","campaign-roas-analysis",{"priority":true,"href":"/work/campaign-roas-analysis","images":["/images/projects/project-01/cover-02.jpg"],"title":"Campaign ROAS Analysis","description":"End-to-end analysis of digital marketing campaign performance — channel by channel, creative by creative. The underfunded channel had 3x the ROAS of the flagship one.","content":"$6","avatars":[{"src":"/images/avatar.jpg"}],"link":""}],"$L7"]}]]}],null,"$L8"]}],"loading":null,"isPartial":false}
+9:T5ca,
+## Overview
+
+An e-commerce client had three years of transaction data sitting in their database with no one analyzing it. I wrote a series of SQL queries to segment customers, identify revenue trends, and find product affinities. The results changed who they thought their "best" customers were.
+
+## What I did
+
+- **Data cleaning** — identified and handled duplicates, missing values, and inconsistent formatting across 500K+ rows
+- **Customer segmentation** — RFM (Recency, Frequency, Monetary) analysis to group customers into actionable segments
+- **Revenue trend analysis** — monthly and quarterly revenue decomposition by product category and customer segment
+- **Product affinity analysis** — market basket analysis to identify products frequently purchased together
+
+## Key findings
+
+- The top 8% of customers generated 42% of revenue — but they weren't the customers the marketing team had been targeting
+- Two product categories showed strong affinity (purchased together 34% of the time) but were never cross-promoted
+- Q4 revenue spike was driven almost entirely by repeat customers, not new acquisitions
+
+## Tech
+
+- **SQL** — CTEs, window functions, joins, aggregation
+- **Excel** — final visualization and reporting
+- **Tableau** — customer segment dashboards
+
+## Result
+
+Marketing team shifted their retention strategy to focus on the actual high-value segment. Cross-promotion campaign for the two affinity categories launched the following quarter.
+7:["$","$L4","ecommerce-sql-analysis",{"priority":false,"href":"/work/ecommerce-sql-analysis","images":["/images/projects/project-01/cover-03.jpg"],"title":"E-Commerce Data Analysis with SQL","description":"SQL deep-dive into e-commerce transaction data — customer segmentation, revenue trends, and product affinity analysis that reshaped the marketing team's understanding of their customer base.","content":"$9","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]
+8:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null
